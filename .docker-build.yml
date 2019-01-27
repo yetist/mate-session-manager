@@ -1,0 +1,13 @@
+# vim: ft=yaml ts=2 sts=2 sw=2 expandtab
+distcheck: true
+requires:
+  archlinux:
+    - gcc
+    - git
+    - gtk3
+    - dbus-glib
+    - libsm
+    - make
+    - mate-common
+    - xmlto
+    - xtrans
